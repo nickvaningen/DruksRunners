@@ -5,7 +5,6 @@ using UnityEngine;
 public class movement : MonoBehaviour {
     [SerializeField]
     private float speed;
-    private float distance;
     // Use this for initialization
     void Start () {
 		
@@ -18,8 +17,8 @@ public class movement : MonoBehaviour {
 
     private void move()
     {
-        transform.Translate(Vector3.forward * Time.deltaTime * speed);
-        Debug.Log(transform.position.z);
+        transform.Translate(Vector3.right * Time.deltaTime * speed);
+        //Debug.Log(transform.position.x);
     }
 
     public float getSpeed()
@@ -27,8 +26,8 @@ public class movement : MonoBehaviour {
         return speed;
     }
 
-    public float getDistance()
-    {
-        return distance;
-    }
+    //public float getDistance()
+    //{
+    //    return transform.position.x;
+    //}
 }

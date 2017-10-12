@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 393374ddff9ae974089f6203431bc999
+timeCreated: 1507559115
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: BitchSlap
+  fontNames:
+  - BitchSlap
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 69aa692c05eabfe4fac754cd77f6d81c, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
